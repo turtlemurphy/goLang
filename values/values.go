@@ -74,6 +74,45 @@ func main() {
 	fmt.Printf("%t\n", 3 > 5)
 	fmt.Printf("%t\n", 5 > 3)
 
+	//space    prefix non-negative number with a space
+	//+    prefix non-negative number with a plus sign
+	//-    left-justify within the field
+	//0    use zeros, not spaces, to right-justify
+	//#    puts the leading 0 for any octal, prefix non-zero hexadecimal with 0x or 0X, prefix non-zero binary with 0b
+
+	fmt.Printf("%+d\n", 1691)
+
+	fmt.Println("---------------------")
+
+	fmt.Printf("%#x\n", 1691)
+	fmt.Printf("%#X\n", 1691)
+	fmt.Printf("%#b\n", 1691)
+
+	fmt.Println("---------------------")
+
+	fmt.Printf("%10d\n", 1691)
+	fmt.Printf("%-10d\n", 1691)
+	fmt.Printf("%010d\n", 1691)
+
+	w := "falcon"
+	n := 122
+	h := 455.67
+
+	fmt.Printf("%s\n", w)
+	fmt.Printf("%10s\n", w)
+
+	fmt.Println("---------------------")
+
+	fmt.Printf("%d\n", n)
+	fmt.Printf("%7d\n", n)
+	fmt.Printf("%07d\n", n)
+
+	fmt.Println("---------------------")
+
+	fmt.Printf("%10f\n", h)
+	fmt.Printf("%11f\n", h)
+	fmt.Printf("%12f\n", h)
+
 	fmt.Println("go" + "lang")
 
 	fmt.Println("6 + 9 + 4 + 2 + 0 =", 6+9+4+2+0)
