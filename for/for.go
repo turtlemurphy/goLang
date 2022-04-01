@@ -21,6 +21,7 @@ func main() {
 
 	primes := sieveOfEratosthenes(1000)
 	ind := 1
+	//underscore operator = blank identifier
 	for _, p := range primes {
 		fmt.Print(p, " ")
 
