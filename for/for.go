@@ -19,13 +19,13 @@ func sieveOfEratosthenes(N int) (primes []int) {
 
 func main() {
 
-	primes := sieveOfEratosthenes(1000)
+	primes := sieveOfEratosthenes(10000)
 	ind := 1
 	//underscore operator = blank identifier
 	for _, p := range primes {
 		fmt.Print(p, " ")
 
-		if ind%20 == 0 {
+		if ind%37 == 0 {
 			fmt.Print("\n")
 		}
 		ind++
@@ -34,9 +34,8 @@ func main() {
 	fmt.Print("\n")
 	fmt.Print("\n")
 
-	for i := 1; i <= 42; i++ {
+	for i := 1; i <= 42; i += 2 {
 		fmt.Print(i, " ")
-		i++
 		if i%20 == 0 {
 			fmt.Print("\n")
 		}
@@ -45,8 +44,11 @@ func main() {
 	fmt.Print("\n")
 	fmt.Print("\n")
 
-	for j := 0; j <= 10; j++ {
-		fmt.Println(j)
+	for j := 1; j <= 10; j++ {
+		fmt.Print(j, " ")
+		if j%20 == 0 {
+			fmt.Print("\n")
+		}
 	}
 
 	fmt.Print("\n")
@@ -64,7 +66,10 @@ func main() {
 		if n%2 == 0 {
 			continue
 		}
-		fmt.Println(n)
+		fmt.Print(n, " ")
+		if n%20 == 0 {
+			fmt.Print("\n")
+		}
 	}
 
 	fmt.Print("\n")
