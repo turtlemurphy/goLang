@@ -69,6 +69,8 @@ func main() {
 			fmt.Println("I'm a bool")
 		case int:
 			fmt.Println("I'm an int")
+		case string:
+			fmt.Print(t, " is a string")
 		default:
 			fmt.Printf("Don't know type %T\n", t)
 		}
