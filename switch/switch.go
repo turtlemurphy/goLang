@@ -17,74 +17,94 @@ func main() {
 
 		switch j {
 		case 1:
-			fmt.Println(" one")
+			fmt.Print(" one")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("   is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("   is odd")
+				fmt.Print("\n")
 			}
 		case 2:
-			fmt.Println(" two")
+			fmt.Print(" two")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("   is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("   is odd")
+				fmt.Print("\n")
 			}
 		case 3:
-			fmt.Println(" three")
+			fmt.Print(" three")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print(" is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print(" is odd")
+				fmt.Print("\n")
 			}
 		case 4:
-			fmt.Println(" four")
+			fmt.Print(" four")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("  is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("  is odd")
+				fmt.Print("\n")
 			}
 		case 5:
-			fmt.Println(" five")
+			fmt.Print(" five")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("  is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("  is odd")
+				fmt.Print("\n")
 			}
 		case 6:
-			fmt.Println(" six")
+			fmt.Print(" six")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("   is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("   is odd")
+				fmt.Print("\n")
 			}
 		case 7:
-			fmt.Println(" seven")
+			fmt.Print(" seven")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print(" is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print(" is odd")
+				fmt.Print("\n")
 			}
 		case 8:
-			fmt.Println(" eight")
+			fmt.Print(" eight")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print(" is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print(" is odd")
+				fmt.Print("\n")
 			}
 		case 9:
-			fmt.Println(" nine")
+			fmt.Print(" nine")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("  is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("  is odd")
+				fmt.Print("\n")
 			}
 		case 10:
-			fmt.Println("ten")
+			fmt.Print("ten")
 			if j%2 == 0 {
-				fmt.Println(j, " is even")
+				fmt.Print("   is even")
+				fmt.Print("\n")
 			} else {
-				fmt.Println(j, " is odd")
+				fmt.Print("   is odd")
+				fmt.Print("\n")
 			}
 		}
 
@@ -120,12 +140,12 @@ func main() {
 		case int:
 			fmt.Println("I'm an int")
 		case string:
-			fmt.Print(t, " is a string")
+			fmt.Println(t, " is a string")
 		default:
 			fmt.Printf("Don't know type %T\n", t)
 		}
 	}
 	whatAmI(true)
 	whatAmI(1)
-	whatAmI("hey")
+	whatAmI("supercalifragilisticexpialidotious")
 }
