@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	i := 2
-	fmt.Print("Write ", i, " as ")
+	j := 2
+	fmt.Print("Write ", j, " as ")
 	fmt.Print("\n")
 	fmt.Print("\n")
 
@@ -18,24 +18,74 @@ func main() {
 		switch j {
 		case 1:
 			fmt.Println(" one")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 2:
 			fmt.Println(" two")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 3:
 			fmt.Println(" three")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 4:
 			fmt.Println(" four")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 5:
 			fmt.Println(" five")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 6:
 			fmt.Println(" six")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 7:
 			fmt.Println(" seven")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 8:
 			fmt.Println(" eight")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 9:
 			fmt.Println(" nine")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		case 10:
 			fmt.Println("ten")
+			if j%2 == 0 {
+				fmt.Println(j, " is even")
+			} else {
+				fmt.Println(j, " is odd")
+			}
 		}
 
 		if j%20 == 0 {
@@ -63,8 +113,8 @@ func main() {
 		fmt.Println("It's after noon")
 	}
 
-	whatAmI := func(i interface{}) {
-		switch t := i.(type) {
+	whatAmI := func(j interface{}) {
+		switch t := j.(type) {
 		case bool:
 			fmt.Println("I'm a bool")
 		case int:
