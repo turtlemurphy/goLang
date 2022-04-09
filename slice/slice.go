@@ -26,11 +26,23 @@ func main() {
 	l := s[2:5]
 	fmt.Println("sl1:", l)
 
-	l = s[:5]
+	l = s[2:3]
 	fmt.Println("sl2:", l)
 
-	l = s[2:]
+	l = s[2:4]
 	fmt.Println("sl3:", l)
+
+	l = s[2:5]
+	fmt.Println("sl4:", l)
+
+	l = s[5:5]
+	fmt.Println("sl5:", l)
+
+	l = s[:5]
+	fmt.Println("sl6:", l)
+
+	l = s[2:]
+	fmt.Println("sl7:", l)
 
 	t := []string{"g", "h", "i"}
 	fmt.Println("dcl:", t)
