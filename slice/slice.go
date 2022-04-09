@@ -24,28 +24,28 @@ func main() {
 	fmt.Println("cpy:", c)
 
 	l := s[2:5]
-	fmt.Println("sl1:", l)
+	fmt.Println("sl1 [2:5]:", l)
 
 	l = s[2:3]
-	fmt.Println("sl2:", l)
+	fmt.Println("sl2 [2:3]:", l)
 
 	l = s[2:4]
-	fmt.Println("sl3:", l)
+	fmt.Println("sl3 [2:4]:", l)
 
 	l = s[2:5]
-	fmt.Println("sl4:", l)
+	fmt.Println("sl4 [2:5]:", l)
 
 	l = s[5:5]
-	fmt.Println("sl5:", l)
+	fmt.Println("sl5 [5:5]:", l)
 
 	l = s[:5]
-	fmt.Println("sl6:", l)
+	fmt.Println("sl6 [ :5]:", l)
 
 	l = s[2:]
-	fmt.Println("sl7:", l)
+	fmt.Println("sl7 [2: ]:", l)
 
 	t := []string{"g", "h", "i"}
-	fmt.Println("dcl:", t)
+	fmt.Println("dcl T:", t)
 
 	twoD := make([][]int, 3)
 	for i := 0; i < 3; i++ {
