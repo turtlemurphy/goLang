@@ -21,19 +21,11 @@ func main() {
 
 	fmt.Print("\n")
 
-	kvs := map[string]string{"a": "apple", "b": "banana"}
+	kvs := map[string]string{"a": "apple", "b": "banana", "c": "cherry"}
+	//kvs := map[string]string{"a": "apple", "b": "banana", "c": "cherry", "d": "date", "e": "egg", "f": "fig"}
 
 	for k, v := range kvs {
-		fmt.Printf("%s -> %s\n", k, v)
-	}
-
-	fmt.Print("\n")
-
-	for k := range kvs {
 		fmt.Println("key:", k)
-	}
-
-	for i, c := range "go" {
-		fmt.Println(i, c)
+		fmt.Printf("%s -> %s\n", k, v)
 	}
 }
