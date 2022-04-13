@@ -45,6 +45,7 @@ func main() {
 	fmt.Print("\n")
 
 	//This loop will take the keys, sort them into an array by alphbetical order then print out the map elements in oprder from the sorted array
+	fmt.Println("Third print sorting the keys by alphabetical order and printing out map elements accoding to that order")
 	var keys []string
 	for key := range kvs {
 		keys = append(keys, key)
@@ -56,5 +57,4 @@ func main() {
 		fmt.Printf("%s -> %s\n", key, kvs[key])
 		//fmt.Println(key, kvs[key])
 	}
-
 }
