@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
+	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	sum := 0
 
 	for _, num := range nums {
@@ -51,8 +51,9 @@ func main() {
 		keys = append(keys, key)
 	}
 	sort.Strings(keys)
+	fmt.Println("Keys in alphabetical order:")
 	fmt.Println(keys)
-	fmt.Println("In alphabetical order:")
+	fmt.Println("Map in alphabetical order:")
 	for _, key := range keys {
 		fmt.Printf("%s -> %s\n", key, kvs[key])
 		//fmt.Println(key, kvs[key])
