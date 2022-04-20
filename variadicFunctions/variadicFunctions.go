@@ -18,7 +18,7 @@ func main() {
 
 	nums := []int{1}
 
-	for j := 1; j <= 42; j++ {
+	for j := 1; j <= 42069; j++ {
 		sum(nums...)
 		nums = append(nums, j)
 	}
