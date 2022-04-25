@@ -13,6 +13,7 @@ func newPerson(name string) *person {
 	p.age = 42
 	return &p
 }
+
 func main() {
 
 	fmt.Println(person{"Bob", 20})
