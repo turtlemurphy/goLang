@@ -41,7 +41,9 @@ func GCD(a, b uint) uint {
 		b = a % b
 		a = t
 	}
+
 	fmt.Println(a)
+
 	return a
 }
 
@@ -60,7 +62,9 @@ func Phi(n uint) (result uint) {
 			for n%p == 0 {
 				n /= p
 			}
+
 			result -= (result / p)
+
 		}
 	}
 
@@ -98,6 +102,6 @@ func main() {
 
 	fmt.Println()
 
-	Phi(8)
+	Phi(42069)
 
 }
