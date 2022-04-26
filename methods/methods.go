@@ -69,6 +69,9 @@ func Phi(n uint) (result uint) {
 	if n > 1 {
 		result -= (result / n)
 	}
+
+	fmt.Println(result)
+
 	return result
 }
 
@@ -87,7 +90,7 @@ func main() {
 
 	fmt.Println()
 
-	sieveOfEratosthenes(420)
+	sieveOfEratosthenes(42069)
 
 	fmt.Println()
 
@@ -95,6 +98,6 @@ func main() {
 
 	fmt.Println()
 
-	p := Phi(8)
-	fmt.Println(p)
+	Phi(8)
+
 }
