@@ -94,7 +94,7 @@ func main() {
 
 	fmt.Println()
 
-	sieveOfEratosthenes(42069)
+	sieveOfEratosthenes(69)
 
 	fmt.Println()
 
