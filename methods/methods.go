@@ -86,11 +86,11 @@ func main() {
 	fmt.Println("area: ", r.area())
 	fmt.Println("perim:", r.perim())
 
-	fmt.Println()
+	//fmt.Println()
 
-	rp := &r
-	fmt.Println("area: ", rp.area())
-	fmt.Println("perim:", rp.perim())
+	//rp := &r
+	//fmt.Println("area: ", rp.area())
+	//fmt.Println("perim:", rp.perim())
 
 	fmt.Println()
 
