@@ -4,11 +4,22 @@ import "fmt"
 
 func main() {
 
-	messages := make(chan string, 2)
+	messages := make(chan string, 9)
 
-	messages <- "buffered"
-	messages <- "channel"
+	messages <- "the"
+	messages <- "quick"
+	messages <- "brown"
+	messages <- "fox"
+	messages <- "jumped"
+	messages <- "over"
+	messages <- "the"
+	messages <- "lazy"
+	messages <- "dog"
 
-	fmt.Println(<-messages)
-	fmt.Println(<-messages)
+	for i := 1; i < 9; i++ {
+
+		fmt.Println(<-messages)
+
+	}
+
 }
