@@ -8,7 +8,7 @@ import (
 func main() {
 
 	ticker := time.NewTicker(1000 * time.Millisecond)
-	fmt.Println(ticker)
+	//fmt.Println(ticker)
 
 	done := make(chan bool)
 
